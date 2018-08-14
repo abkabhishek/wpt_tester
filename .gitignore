@@ -1,0 +1,7 @@
+**/__pycache__/
+**/*.pyc
+/core/files/WPTReports/*.html
+/core/configs/*
+/core/DB/*
+/core/files/*
+**/*.ini
