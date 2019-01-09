@@ -7,5 +7,5 @@ idna==2.6
 pytz==2018.3
 requests==2.18.4
 SQLAlchemy==1.2.6
-urllib3==1.5
+urllib3>=1.4
 zope.interface==4.4.3
