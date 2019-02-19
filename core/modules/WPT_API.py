@@ -119,7 +119,7 @@ if __name__=="__main__":
     # #     print ('No url is supplied, Please run again with url')
     #
     # test=WPTApi('A.b118266106cf8ec70b6eab4b8ff3cb78')
-    # rjson,rurl,rid=test.submitTest(testUrl="https://www.startpage.com/do/asearch?q=paris&cat=pics&nj=0",locationString="Dulles_Thinkpad:IE 11.Cable",fvonly='1',runCount='1')
+    # rjson,rurl,rid=test.submitTest(testUrl="https://www.google.com",locationString="Dulles_Thinkpad:IE 11.Cable",fvonly='1',runCount='1')
     # print (rjson, rurl, rid)
     # # print (test.Prop.get('TESTURL','main_url'))
     # # print (test.Prop.get("TESTURL",'main_url'))

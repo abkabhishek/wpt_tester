@@ -40,19 +40,10 @@ class HTMLman:
                 # print ("%s,%s" %(url,href))
 
 if __name__ == "__main__":
-    url='https://guest1:guest@supportn2.startpage.com/nl/'
+    url='https://www.google.com/'
     # searchString='string to find inside urls'
-    output='URLsList_Support_Homepage_15Mar18_v3.csv'
+    output='test_sample.csv'
     searchPhrase="^http"
     htm=HTMLman()
     data=htm.getHTML(url)
     htm.getHREFfromATag(data,output,searchPhrase)
-    # htm.findTextInHTML(url1,searchString)
-
-    # filename = 'C:/Users/Arijit/Desktop/TEMPORARY_DELETE/eu9_family_list.csv'
-    # with open(filename) as file:
-    #     for line in file:
-    #         # l = line.strip()
-    #         l = str(line).encode('utf-8').strip()
-    #         datahtml=htm.getHTML(l)
-    #         htm.findTextInHTML(datahtml,l,searchString)

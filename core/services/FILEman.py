@@ -6,7 +6,7 @@ class FILEman:
 
 
     def __init__(self):
-        # self.query_page='https://www.webpagetest.org/result/180227_FD_7d7f9573c0639796c0f4135f43fed93b/'
+        
         pass
 
 
@@ -32,4 +32,3 @@ class FILEman:
 if __name__ == "__main__":
     Flman=FILEman()
     # Flman.saveHTML('https://www.google.com','ResultHTML.html')
-
